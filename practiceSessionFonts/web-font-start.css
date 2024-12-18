@@ -1,0 +1,104 @@
+/*
+@font-face {
+    font-family: 'aganregular';
+    src: url('fonts/agane_55_roman-webfont.woff2') format('woff2'),
+         url('fonts/agane_55_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/bebas-regular-webfont.woff2') format('woff2'),
+         url('fonts/bebas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quantico-bold {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .quantico-regular-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .quantico-bold-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
+  /* <uniquifier>: Use a unique and descriptive class name
+  <weight>: Use a value from 200 to 900*/
+  
+  .hubot-sans-variable1 {
+    font-family: "Hubot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 790;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .hubot-sans-variable2 {
+    font-family: "Hubot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 307;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* General setup */
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3.2rem;
+    font-family: 'hubot-sans-variable1', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    font-family: 'Hubot Sans', sans-serif;
+    font-weight: 409;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+

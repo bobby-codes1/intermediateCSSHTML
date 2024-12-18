@@ -1,0 +1,68 @@
+.main {
+    background-color: white;
+    height: 95vh;
+    padding: 15px;
+}
+
+.wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    gap: 15px;
+}
+
+.header {
+    padding-top: 1rem;
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: green;
+    text-align: center;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.sidebar {
+    padding-top: 1rem;
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: blue;
+    text-align: center;
+    font-size: 1.2rem;
+    color:aliceblue;
+    border-radius: 5px;
+
+}
+
+.nav {
+    padding-top: 1rem;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: rgba(166, 0, 255, 0.919);
+    text-align: center;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.article {
+    padding-top: 1rem;
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: rgb(146, 24, 150);
+    text-align: center;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.footer {
+    padding-top: 1rem;
+    grid-area: 4 / 1 / 5 / 3;
+    background-color: rgb(67, 74, 67);
+    text-align: center;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 5px;
+
+}

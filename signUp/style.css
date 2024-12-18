@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.woff2);
+}
+
+body{
+    font-family: 'Roboto', 'Inter', 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p{
+    margin: 0;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#odin-logo-div{
+    display: flex;
+    padding: .5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 21, 21, 0.695);
+}
+
+.odin-text{
+    height: 4rem;
+    background-color: #596D48;
+}
+
+#logo{
+    height: auto;
+    font-family: Norse-Bold, sans-serif;
+    font-size: 5rem;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+
+.odin-logo{
+    margin-right: 0.25rem;
+    width: 5.5rem;
+}
+
+.image-div{
+    padding-top: 6%;
+    background-image: url('./images/odin-image.jpg'); /* The image used */
+    background-color: #6a0e0e; /* Used if the image is unavailable */
+    width: 37%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.sign-up-content{
+    background-color: rgb(245, 245, 245);
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    
+    padding-bottom: 3rem;
+
+}
+
+#input-fields{
+    height: auto;
+    padding-top: 1rem;
+    background-color: white;
+    padding-left: 2.95rem;
+    /*box-shadow: 0 4px 2px -2px gray;*/
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.50);;
+    
+}
+
+#lets{
+    color: rgba(0, 0, 0, 0.797);
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+#advert{
+    font-family: 'Roboto', 'Inter', 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.35rem;
+    padding-left: 2.95rem;
+    padding-bottom: 3rem;
+}
+
+
+.sign-up-content > div{ 
+    height:auto;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.95rem;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*align-content: start;*/
+    letter-spacing: 0.05rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.673);
+    
+}
+    
+#third{
+    padding-top: 2rem;
+}
+
+button{
+    padding: 1rem 3rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.884);
+    background-color: #596D48;
+    border-width: 0;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+input, label{
+    display: block;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.2rem 0.35rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color:rgb(6, 53, 133);
+    box-shadow: #E5E7EB;
+}
+
+#left-form-area{
+    margin-right: 3.5rem;
+    width: 30%;
+}
+
+#right-form-area{
+    width: 30%;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+    
+}
+
+#already{
+    font-weight: 500;
+}
